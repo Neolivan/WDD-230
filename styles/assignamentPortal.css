@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@600&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+header{
+    width: 550px;
+    background-color: #B6EFD4;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 50px;
+    display: flex;
+    gap: 30px;
+    flex-direction:row ;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Merienda', cursive;
+}
+header img{
+    width: 25%;
+    border-radius: 50%;
+}
+main{
+    width: 550px;
+    font-family:  'Xanh Mono', monospace;;
+}
+main h2{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-family:  'Rowdies', cursive;
+}
+main ul{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+main ul li{
+    padding-top: 15px;
+}
+main span{
+    font-size: 15px;
+    font-style: italic;
+}
+footer{
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 5px;
+    background-color: #B6EFD4;
+    font-family:  'Xanh Mono', monospace;;
+}
+footer p{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 400;
+}
