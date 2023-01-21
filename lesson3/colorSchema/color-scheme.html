@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planning</title>
+    <link rel="stylesheet" href="../../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/index.css">
+</head>
+<body>
+    <header>
+        <h1> &#127794 Website Planning Document &#127794 </h1>
+    </header>
+    <nav>
+        <div><a href="../index.html">🏡 Home</a></div>
+        <div><a href="../targetAudience/target-audience.html">&#11088 Target Audience</a></div>
+        <div><a href="./color-scheme.html">&#x1F3A8 Color Schema</a></div>
+        <div><a href="../typography/typography.html"> &#x270D Typography</a></div>
+    </nav>
+    <main>
+        <picture>
+            <img src="../images/logo.png" alt="A placeholder image" width="300" height="300">
+        </picture>
+        <article>
+            <h2>Color Schema</h2>
+            <h3>Header</h3>
+            <p id="header">#80ED99</p>
+            <h3>Nav</h3>
+            <p id="nav">#57CC99</p>
+            <h3>Main</h3>
+            <p id="main">#dce1de</p>
+            <h3>Footer</h3>
+            <p id="footer">#80ED99</p>
+
+        </article>
+    </main>
+    <footer>
+        <span>&copy;<span id="©"></span>
+            <span> .:|:. Neolivan Moraes .:|:.</span>
+            <span>Brigham Young University .:|:.</span>
+            <span>WDD 230</span>
+    </footer>
+
+    <script>
+        document.querySelector('#©').textContent = new Date(Date.now()).getFullYear();
+        document.getElementById('header').style.backgroundColor = document.getElementById('header').innerHTML
+        document.getElementById('nav').style.backgroundColor = document.getElementById('nav').innerHTML
+        document.getElementById('main').style.backgroundColor = document.getElementById('main').innerHTML
+        document.getElementById('footer').style.backgroundColor = document.getElementById('footer').innerHTML
+    </script>
+</body>
+</html>

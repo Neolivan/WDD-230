@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planning</title>
+    <link rel="stylesheet" href="../../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Asap+Condensed&family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1> &#127794 Website Planning Document &#127794 </h1>
+    </header>
+    <nav>
+        <div><a href="../index.html">🏡 Home</a></div>
+        <div><a href="../targetAudience/target-audience.html">&#11088 Target Audience</a></div>
+        <div><a href="../colorSchema/color-scheme.html">&#x1F3A8 Color Schema</a></div>
+        <div><a href="./typography.html"> &#x270D Typography</a></div>
+    </nav>
+    <main>
+        <picture>
+            <img src="../images/logo.png" alt="A placeholder image" width="300" height="300">
+        </picture>
+        <article>
+            <h2>Typography</h2>
+            <h3>h1</h3>
+            <p id="h1">Anton</p>
+            <h3>h2</h3>
+            <p id="h3">Abril Fatface</p>
+            <h3>h3</h3>
+            <p id="h2">Bebas Neue</p>
+            <h3>p</h3>
+            <p id="p">Asap Condensed</p>
+
+        </article>
+    </main>
+    <footer>
+        <span>&copy;<span id="©"></span>
+            <span> .:|:. Neolivan Moraes .:|:.</span>
+            <span>Brigham Young University .:|:.</span>
+            <span>WDD 230</span>
+    </footer>
+
+    <script>
+        document.querySelector('#©').textContent = new Date(Date.now()).getFullYear();
+        document.getElementById('h1').style.fontFamily = document.getElementById('h1').innerHTML
+        document.getElementById('h2').style.fontFamily = document.getElementById('h2').innerHTML
+        document.getElementById('h3').style.fontFamily = document.getElementById('h3').innerHTML
+        document.getElementById('p').style.fontFamily = document.getElementById('p').innerHTML
+    </script>
+</body>
+</html>
