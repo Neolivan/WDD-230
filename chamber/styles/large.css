@@ -1,90 +1,130 @@
 @media (min-width: 64em) {
-    body {
-      width: 950px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    nav {
-      display: none;
-    }
-    .menuLarge {
-      display: flex;
-      flex-direction: row;
-      list-style: none;
-      padding: 0;
-      width: 300px;
-      justify-content: space-around;
-    }
-    .menuLarge li a {
-      text-decoration: none;
-      color: black;
-    }
-    .menuLarge li:hover {
-      background-color: #80ed99;
-    }
-    .menuLarge li h3 {
-      margin: 0;
-      padding: 10px;
-      text-align: center;
-    }
-    .menuLarge li {
-      text-align: center;
-    }
-    main {
-      display: grid;
-      grid-template-columns: 1fr 3fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
-      height: 600px;
-      grid-gap: 12px;
-      width: 97%;
-      margin-right: auto;
-      margin-left: auto;
-    }
-    #spot3 {
-      display: block;
-    }
-    .eventsW {
-      grid-column: 1/2;
-      grid-row: 1/3;
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      height: 100%;
-    }
-    .eventsW .simple {
-      width: 100%;
-      height: 48%;
-      margin-bottom: 0;
-    }
-    #join {
-      grid-column: 1/2;
-      grid-row: 3/4;
-      height: 100%;
-      margin-top: 0;
-    }
-    #hero {
-      grid-column: 2/3;
-      grid-row: 1/3;
-      height: 100%;
-    }
-    #news {
-      grid-column: 2/3;
-      grid-row: 3/4;
-      height: 100%;
-    }
-    .simple2 {
-      grid-column: 3/4;
-      grid-row: 1/4;
-      display: flex;
-      flex-direction: column;
-      height: 100%;
-      padding-top: 10px;
-      padding-bottom: 10px;
-    }
-    .simple2 section{
-      width: 90%;
-    }
-    .simple {
-      margin-bottom: 0;
-    }
+  body {
+    margin-left: auto;
+    margin-right: auto;
   }
+  nav {
+    display: none;
+  }
+  .menuLarge {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    width: 300px;
+    justify-content: space-around;
+  }
+  .menuLarge li a {
+    text-decoration: none;
+    color: black;
+  }
+  .menuLarge li:hover {
+    background-color: #80ed99;
+  }
+  .menuLarge li h3 {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+  }
+  .menuLarge li {
+    text-align: center;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    grid-gap: 12px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #spot3 {
+    display: block;
+  }
+  #event{
+    height: 45%;
+  }
+  .eventsW {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .eventsW .simple {
+    width: 100%;
+    height: 48%;
+    margin-bottom: 0;
+  }
+  #weather{
+    max-height: 50%;
+  }
+  #weather-container{
+    height: 100%;
+    width: 65%;
+  }
+  #join {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    min-width: 80%;
+    height: 90%;
+    margin-top: 0;
+    border-radius:10px ;
+  }
+  #join p{
+    font-size: 16px;
+  }
+  #hero {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  #hero h1{
+    font-size: 66px;
+  }
+  #hero button {
+    font-size: 24px;
+    width: 375px;
+  }
+  #news {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    height: 95%;
+    width: 100%;
+    max-width: 100%;
+  }
+  #news p{
+    font-size: 24px;
+  }
+  .simple2 {
+    grid-column: 3/4;
+    grid-row: 1/4;
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    border-radius: 10px;
+  }
+  .simple2 section{
+    width: 90%;
+    height:32%;
+    display: flex!important;
+  }
+  .simple2 section h1{
+    font-size: 16px;
+  }
+  .simple2 h3{
+    font-size: 12px;
+  }
+  .simple2 section img{
+    width: 100px;
+    height: 100px;
+  }
+  .simple {
+    margin-bottom: 0;
+    min-width: 90%;
+  }
+}

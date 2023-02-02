@@ -7,7 +7,7 @@
     }
     .simple2 section{
         width: 48%;
-        height: 90%;
+        height: 430px;
     }
     #join{
         display: block;
@@ -21,7 +21,7 @@
     }
     .eventsW .simple{
         min-width: 49%;
-
+        
     }
     #hero{
         order: 1;
@@ -38,6 +38,36 @@
     .eventsW{
         order: 5;
     }
+
+    #join{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 16px;
+        background-color: #044389;
+    }
+
+    #join-button{
+        font-size: 24px;
+        padding: 10px 14px;
+        border-radius: 8px;
+        background-color: #57cc99;
+        border-color: #57cc99;
+        font-family: "Abril Fatface";
+        width: 90%;
+    }
+
+    #join p{
+        font-size: 24px;
+        color: #fff;
+        font-family: "Anton";
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+
+
 
     footer{
         text-align: left;
@@ -67,5 +97,4 @@
         text-align: center;
         justify-content: space-evenly;
     }
-
 }
