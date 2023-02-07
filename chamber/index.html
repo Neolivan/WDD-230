@@ -18,7 +18,7 @@
     <header>
         <div class="container">
             <div class="title-containner">
-                <img src="./images/logo.png" alt="logo" id="logo" />
+                <img src="./images/logo.webp" alt="logo" id="logo" />
                 <div class="title">
                     <h1>Araucaria</h1>
                     <h2>Chamber of Commerce</h2>
@@ -47,22 +47,48 @@
         <div class="date-container">
             <h2 id="date"></h3>
         </div>
-
     </header>
     <main>
         <section class="simple" id="hero">
-            <h3>Hero with site name and call to action</h3>
+            <!-- <h1>Welcome to Araucaria</h1>
+            <button>Join the Chamber</button> -->
+            <picture>
+                <source media="(max-width: 32.5em)" srcset="./images/small.jpg" >
+                <source media="(max-width: 64em)" srcset="./images/Medium.jpg" >
+                <img src="./images/Large.jpg" alt="exercice">
+            </picture>
         </section>
         <div class="eventsW">
             <section class="simple" id="event">
-                <h3>Event</h3>
+                <h2>Petrobras</h2>
+                <h2>&#11088; New Installation &#11088;</h2>
+                <p>Join us in the grand oppenning of a <br/> Petrobras new installation, Thursday at 10:00 p.m. <br/><a href="/">more info ...</a></p>
             </section>
             <section class="simple" id="weather">
-                <h3>Weather</h3>
+                <div id="weather-container">
+                    <h1>Weather</h1>
+                    <div id="weather1">
+                        <img src="./images/weather.png" alt="wheater">
+                        <span><span id="temperature">17</span>°C</span>
+                    </div>
+                    <div id="weather2">
+                        <span>Raining</span>
+                    </div>
+                    <div id="weather3">
+                        <div>
+                            <span>Wind Speed:</span>
+                            <span><span id="wind">2.5</span> km/h</span>
+                        </div>
+                        <div>
+                            <span>Wind Chill:</span>
+                            <span id="chill">N/A</span>
+                        </div>
+                    </div>
+                </div>
             </section>
         </div>
         <section class="simple" id="news">
-            <h3>News Release</h3>
+            <h1>News Release</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis rutrum metus, a pulvinar ex. Phasellus id dolor diam. Donec eget rutrum sem. Pellentesque non felis non dui dapibus dignissim ac a est. Duis cursus urna leo, nec imperdiet nisl fermentum a. Phasellus sed tempus eros, id egestas nunc.</p>
         </section>
         <section class="simple2">
@@ -116,6 +142,13 @@
             </div>
     </footer>
     <script src="./scripts/main.js"></script>
+    <script src="./scripts/windchill.js"></script>
     <script src="./../scripts/portal.js"></script>
 </body>
 </html>
+    
+    
+    
+    
+    
+    
