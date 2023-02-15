@@ -97,4 +97,8 @@
         text-align: center;
         justify-content: space-evenly;
     }
+
+    .discovery h3{
+        max-width: 450px;
+    }
 }

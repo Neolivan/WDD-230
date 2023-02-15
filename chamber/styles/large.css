@@ -130,4 +130,8 @@
     margin-bottom: 0;
     min-width: 90%;
   }
+
+  .discovery img{
+    width: 50%;
+  }
 }
