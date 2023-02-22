@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce</title>
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/large.css">
+    <link rel="stylesheet" href="./styles/hamburguerMenu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Asap+Condensed&family=Bebas+Neue&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="title-containner">
+                <img src="./images/logo.webp" alt="logo" id="logo" />
+                <div class="title">
+                    <h1>Araucaria</h1>
+                    <h2>Chamber of Commerce</h2>
+                </div>
+            </div>
+            <ul class="menuLarge">
+                <li>
+                    <h3><a href="#">Discovery</a></h3>
+                </li>
+                <li>
+                    <h3><a href="#">Directory</a></h3>
+                </li>
+                <li>
+                    <h3><a href="#">Join</a></h3>
+                </li>
+                <li>
+                    <h3><a href="#">Contact</a></h3>
+                </li>
+            </ul>
+            <nav>
+                <button class="hamburger hamburger--squeeze" type="button">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+            </nav>
+        </div>
+        <ul class="menu">
+            <li>
+                <h3><a href="#">Discovery</a></h3>
+            </li>
+            <li>
+                <h3><a href="#">Directory</a></h3>
+            </li>
+            <li>
+                <h3><a href="#">Join</a></h3>
+            </li>
+            <li>
+                <h3><a href="#">Contact</a></h3>
+            </li>
+        </ul>
+        <div class="date-container">
+            <h2 id="date">
+                </h3>
+        </div>
+    </header>
+    <main class="join">
+        <form action="./thankyou.html" method="get">
+            <label>
+                First Name
+                <input name="first" placeholder="First Name" type="text" required />
+            </label>
+            <label>
+                Last Name
+                <input name="last" placeholder="Last Name" type="text" required />
+            </label>
+            <label>
+                Email
+                <input name="email" placeholder="email@email.com" type="email" required />
+            </label>
+            <label>
+                Cell Phone
+                <input name="tel" placeholder="Cell Phone" type="tel" required />
+            </label>
+            <label>
+                Business name/title
+                <input name="businessName" placeholder="Title" type="text" required />
+            </label>
+            <label>
+                Business position
+                <input name="businessPosition" placeholder="Position" type="text" required pattern="^([a-zA-Z\t\r\n\- ]){7}$" />
+            </label>
+            <label>
+                Membership level
+                <select name="level" id="level">
+                    <option value="">Select...</option>
+                    <option value="np">NP Membership</option>
+                    <option value="bronze">Bronze Membership</option>
+                    <option value="silver">Silver Membership</option>
+                    <option value="gold">Gold Membership</option>
+                </select>
+            </label>
+            <label>
+                Business description
+                <textarea placeholder="Brief describe of your business..." name="description" id="description" cols="30" rows="5"></textarea>
+            </label>
+            <label id="loadedField">
+                Loaded
+                <input type="text" name="loaded" id="loaded">
+            </label>
+
+            <button type="submit">Join us!</button>
+
+        </form>
+
+        <table>
+            <caption>Table 1: Membership Feature Comparison</caption>
+            <thead>
+                <tr>
+                    <th colspan="5" scope="colgroup">
+                        MEMBERSHIP BENEFITS
+                    </th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>Non Profit organizations (NP)</th>
+                    <th>Bronze</th>
+                    <th>Silver</th>
+                    <th>Gold </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Daily news</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>Discounts on market places partners</td>
+                    <td>&#10060;</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>Discounts on turism point, included a fast pass if it has a line</td>
+                    <td>&#10060;</td>
+                    <td>&#10060;</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>Bus pass free</td>
+                    <td>&#10060;</td>
+                    <td>&#10060;</td>
+                    <td>&#10060;</td>
+                    <td>✔️</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </main>
+    <footer>
+        <div class="main-footer">
+            <div class="address">
+                <img src="./images/logo.png" alt="logo">
+                <div>
+                    <h2>Araucaria Chamber of Commerce</h2>
+                    <h4>Road Manuel Ribas</h4>
+                    <h4>Araucaria, 1100</h4>
+                </div>
+            </div>
+            <div class="contact">
+                <h4>info@araucariacoc.org</h4>
+                <h4>+(55) 4581-5698</h4>
+            </div>
+        </div>
+        <div class="info">
+            <h4>&copy;<span id="year"></span>Araucaria Chamber</h4>
+            <h4 class="bold"> Neolivan Moraes</h4>
+            <h4>WDD 230 Project </h4>
+            <h4>Last Modification: <span id="update"></span></h4>
+        </div>
+    </footer>
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/join.js"></script>
+    <script src="./../scripts/portal.js"></script>
+</body>
+
+</html>

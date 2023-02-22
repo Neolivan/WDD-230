@@ -134,4 +134,23 @@
   .discovery img{
     width: 50%;
   }
+
+  .join{
+    display: flex;
+    flex-direction: row;
+    gap : 50px;
+    align-items: flex-start;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .join table{
+    margin: 0;
+  }
+
+  .thanks{
+    display: flex;
+    justify-content: center;
+  }
+
 }
