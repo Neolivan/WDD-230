@@ -1,0 +1,74 @@
+[
+    {
+        "name": "BRAFER CONSTRUCOES METALICAS S A",
+        "addresses":"Avenida das Araucarias, 40",
+        "phone":"(41) 3641-4600",
+        "website":"http://brafer.com/",
+        "image":"./images/brafer.jpg",
+        "membershipLevel":"Gold"
+    },
+    {
+        "name": "RISOTOLANDIA SERVICOS DE ALIMENTACAO LTDA",
+        "addresses":"Rua Luiz Franceschi, 697",
+        "phone":"(41) 3641-3131",
+        "website":"https://risotolandia.com.br/",
+        "image":"./images/risotolandia.png",
+        "membershipLevel":"Silver"
+    },
+    {
+        "name": "BERNECK S.A. PAINEIS E SERRADOS",
+        "addresses":"Rua Doutor Valerio Sobania, 500",
+        "phone":"(41) 3907-3700",
+        "website":"https://www.berneck.com.br/",
+        "image":"./images/berneck.jpg",
+        "membershipLevel":"Gold"
+    },
+    {
+        "name": "GELOPAR REFRIGERACAO PARANAENSE LTDA",
+        "addresses":"Rua Dr.eli Volpato, 250",
+        "phone":"(41) 3641-1400",
+        "website":"https://www.gelopar.com.br/",
+        "image":"./images/gelopar.png",
+        "membershipLevel":"Bronze"
+    },
+    {
+        "name": "TORTUGA-PRODUTOS DE BORRACHA LTDA",
+        "addresses":"Avenida das Araucarias, 5500",
+        "phone":"(41) 3314-3180",
+        "website":"https://tortugaonline.com.br/",
+        "image":"./images/tortuga.jpg",
+        "membershipLevel":"Bronze"
+    },
+    {
+        "name": "TECHNOCOAT ARTEFATOS DE PAPEL LTDA",
+        "addresses":"Rua Francisco Knopik, 796",
+        "phone":"(41) 3133-6600",
+        "website":"https://technocoat.com.br/",
+        "image":"./images/technocoat.jpg",
+        "membershipLevel":"Bronze"
+    },
+    {
+        "name": "PARNAPLAST INDUSTRIA DE PLASTICOS LTDA",
+        "addresses":"Avenida das Araucarias, 5185",
+        "phone":"(41) 2141-3500",
+        "website":"https://www.parnaplast.com.br/",
+        "image":"./images/parnaplast.png",
+        "membershipLevel":"Silver"
+    },
+    {
+        "name": "EMPARLIMP LIMPEZA LTDA",
+        "addresses":"Rua Doutor Bruno Cichon, 72",
+        "phone":"(41) 3614-1000",
+        "website":"https://www.grupoempar.com.br/",
+        "image":"./images/emparlimp.jpg",
+        "membershipLevel":"Bronze"
+    },
+    {
+        "name": "FERTILIZE - AGRICOLA LTDA",
+        "addresses":"Rodovia Pr 423 Km 8, 1401",
+        "phone":"(41) 3642-3455",
+        "website":"http://www.fertilize.com.br/",
+        "image":"./images/fertilize.jpg",
+        "membershipLevel":"Silver"
+    }
+]

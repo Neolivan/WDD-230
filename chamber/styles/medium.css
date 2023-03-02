@@ -106,4 +106,8 @@
         width: 580px;
     }
 
+    .directory{
+        align-items: normal;
+    }
+
 }

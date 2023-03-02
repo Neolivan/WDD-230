@@ -153,4 +153,9 @@
     justify-content: center;
   }
 
+  .directory{
+    display: flex;
+    align-items: normal;
+  }
+
 }
