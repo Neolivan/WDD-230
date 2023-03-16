@@ -125,20 +125,20 @@ main {
   display: none;
 }
 
-/* #hero {
-  background-image: url("../images/hero.jpg");
-  height: 200px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+#hero div{
+  width: 95vw;
+  margin-top: 25px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
-  border-radius: 10px;
-} */
+  justify-content: center;
+  position: absolute;
+}
+
+
 #hero img{
-  width: 100vw;
+  z-index: 0;
+  width: 95vw;
   margin-left: auto;
   margin-right: auto;
 }
@@ -154,6 +154,11 @@ main {
   background-color: #57cc99;
   font-family: "Abril Fatface";
   width: 200px;
+  cursor: pointer;
+  border: none;
+}
+#hero button:hover{
+  background-color: #449c76;
 }
 #event {
   color: #fff;
@@ -254,6 +259,9 @@ main {
 #news p {
   max-width: 90%;
   font-size: 16px;
+}
+#join a{
+  width: 100%;
 }
 .simple2 {
   padding: 10px;
