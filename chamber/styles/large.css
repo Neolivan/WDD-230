@@ -89,6 +89,9 @@
   #hero h1{
     font-size: 66px;
   }
+  #hero div{
+    width: 50vw;
+  }
   #hero button {
     font-size: 24px;
     width: 375px;
@@ -118,10 +121,15 @@
   }
   .simple2 section h1{
     font-size: 16px;
+    text-align: center;
+    width: 85%;
   }
   .simple2 h3{
     font-size: 12px;
   }
+  .simple2 .website1{
+    font-size: 0.8rem;
+}
   .simple2 section img{
     width: 100px;
     height: 100px;

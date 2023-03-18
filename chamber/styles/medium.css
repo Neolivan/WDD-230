@@ -4,10 +4,17 @@
     }
     .simple2{
         flex-direction: row;
+        gap: 25px;
     }
     .simple2 section{
-        width: 48%;
+        width: 30%;
         height: 430px;
+    }
+    .simple2 h1{
+        font-size: 1.2rem;
+    }
+    .simple2 .website1{
+        font-size: 1rem;
     }
     #join{
         display: block;
