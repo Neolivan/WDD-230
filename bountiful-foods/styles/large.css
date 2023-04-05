@@ -1,0 +1,52 @@
+@media (min-width: 64em) {
+    body{
+        font-size: 20px;
+    }
+    header img {
+        width: 10%;
+      }
+      .hero {
+        height: 375px;
+        border-radius: 15px;
+    }
+
+    #menu-small-button{
+        display:none;
+    }  
+    .large-menu{
+        display: flex;
+        flex-direction: row;
+        font-family: "Acme", sans-serif;
+    }
+    .large-menu a:hover{
+        color:#136F63 ;
+    }
+    #fresh{
+        border-right: 3px solid black;
+        padding-right: 15px;
+        margin-right: 15px;
+    }
+    .middle-img img {
+        width: 35%;
+    }
+    #count {
+        font-size: 8rem;
+    }
+    .middle-img div {
+        width: 349px;
+        height: 300px;
+    }
+    .middle-img span {
+        font-size: 2rem;
+    }
+    .map-weather {
+        justify-content: space-evenly;
+    }
+    #weather-cards {
+        gap: 50px;
+    }
+    .card-weather {
+        gap: 10px;
+        padding: 15px;
+    }
+}

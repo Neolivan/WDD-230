@@ -1,0 +1,39 @@
+@media only screen and (min-width: 32.5em){
+    header img {
+        width: 15%;
+      }
+    .hero{
+        height: 340px;
+    }
+    .map-weather{
+        justify-content: space-around;
+    }
+    footer{
+        text-align: left;
+    }
+    .main-footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .address{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .address img{
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .contact{
+        text-align: center;
+    }
+    footer .info{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+}

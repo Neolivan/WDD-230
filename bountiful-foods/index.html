@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods</title>
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/hamburguerMenu.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div>
+
+            <img src="./assets/images/logo.png" alt="logo">
+            <div>
+                <div class="social">
+                    <a class="socialMedia" href="https://www.facebook.com/"><img src="./assets/images/Facebook.png"
+                            alt="facebook logo"></a>
+                    <a class="socialMedia" href="https://www.instagram.com"><img src="./assets/images/Instagram.png"
+                            alt="instagram logo"></a>
+                    <a class="socialMedia" href="https://linkedin.com"><img src="./assets/images/LinkedIn.png"
+                            alt="linked in logo"></a>
+                </div>
+                <button id="menu-small-button" class="hamburger hamburger--elastic" type="button">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner">
+                        </span>
+                    </span>
+                </button>
+                <div class="large-menu">
+                    <a id="fresh" href="$">
+                        <h3>
+                            FRESH
+                        </h3>
+                    </a>
+                    <a href="$">
+                        <h3>
+                            CONTACT US
+                        </h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <ul class="menu-small">
+            <li><a href="#">
+                    <h3>Fresh</h3>
+                </a></li>
+            <li><a href="#">
+                    <h3>Contact us</h3>
+                </a></li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="hero">
+            <h1>Bountiful Foods</h1>
+            <button>ORDER NOW</button>
+        </div>
+        <div class="mission">
+            <h2>Our Mission</h2>
+            <p>Help all people to have a healthy alimentation, to achieve this the Bountiful
+                Foods are created, to encourage people to have better health, we sell fresh juices and send them to all
+                places in California, Los Angeles to San Diego, the best part is YOU CAN MADE YOUR OWN FLAVORS!!</p>
+            <button>ORDER NOW</button>
+        </div>
+        <div class="middle-img">
+            <img src="./assets/images/fruits.jfif" alt="juices">
+            <div>
+                <span id="count">0</span>
+                <span>Total juices ordered</span>
+            </div>
+        </div>
+        <div class="curiosity">
+            <h2>What is considered South Coast California?</h2>
+            <p>The California South Coast region extends from Ventura County to the Mexican Border and includes the
+                counties of Los Angeles, Orange and San Diego. It is known for its sandy beaches, surf-able waves,
+                moderate climate, and large and diverse population.</p>
+        </div>
+        <div class="map-weather">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d211925.8148196475!2d-118.59483886865897!3d33.90662590536722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b4a885bc83e1%3A0xeff220dcf0eb5906!2s505%20George%20Freeth%20Way%2C%20Redondo%20Beach%2C%20CA%2090277%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1680651313732!5m2!1spt-BR!2sbr"
+                class="map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="weather-container">
+                <h2>Carlsbad, CA</h2>
+                <span id="currentTemp"></span>
+                <span id="weath"></span>
+                <p>Humidity: <span id="humidity"></span>%</p>
+
+                <div id="weather-cards">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="main-footer">
+            <div class="address">
+                <img src="./assets/images/logo.png" alt="logo">
+                <div>
+                    <h2>Bountiful Foods</h2>
+                    <h4>505 George Freeth Way Redondo Beach</h4>
+                    <h4>CA 90277 EUA</h4>
+                </div>
+            </div>
+            <div class="contact">
+                <h4>info@bountifulFoods.org</h4>
+                <h4>+(55) 4581-5698</h4>
+            </div>
+        </div>
+        <div class="info">
+            <h4>&copy;<span id="year"></span>Bountiful Foods</h4>
+            <h4 class="bold"> Neolivan Moraes</h4>
+            <h4>WDD 230 Final Project </h4>
+            <h4>Last Modification: <span id="update"></span></h4>
+        </div>
+    </footer>
+
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/weather.js"></script>
+</body>
+
+</html>
