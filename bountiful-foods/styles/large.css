@@ -3,7 +3,7 @@
         font-size: 20px;
     }
     header img {
-        width: 10%;
+        width: 8%;
       }
       .hero {
         height: 375px;
@@ -49,4 +49,9 @@
         gap: 10px;
         padding: 15px;
     }
+
+    /* About us */
+.start-img img {
+    height: 200px;
+}
 }

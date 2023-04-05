@@ -36,4 +36,13 @@
         text-align: center;
         justify-content: space-evenly;
     }
+
+    /* About us */
+
+    .start-img{
+        width: 100%;
+    }
+    .location .map{
+        width: 100%;
+      }
 }
