@@ -42,7 +42,7 @@ header img {
   width: 25%;
   border-radius: 10px;
 }
-.large-menu{
+.large-menu {
   display: none;
 }
 .menu-small {
@@ -206,45 +206,45 @@ button {
   border-radius: 15px;
 }
 
-.weather-container{
+.weather-container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 }
 
-.weather-container h2{
-  font-family:"Inconsolata", monospace;
+.weather-container h2 {
+  font-family: "Inconsolata", monospace;
   padding-bottom: 15px;
   border-bottom: 2px solid #fff;
   margin-bottom: 15px;
 }
 
-#currentTemp{
+#currentTemp {
   font-family: "Acme", sans-serif;
   font-size: 2.5rem;
 }
 
-#weath{
-  font-family:"Inconsolata", monospace;
+#weath {
+  font-family: "Inconsolata", monospace;
   font-size: 1.5rem;
 }
 
-#humidity{
-  font-family:"Inconsolata", monospace;
+#humidity {
+  font-family: "Inconsolata", monospace;
   font-size: 1.2rem;
 }
 
-#weather-cards{
+#weather-cards {
   display: flex;
   flex-direction: row;
   gap: 5px;
 }
 
-.card-weather{
+.card-weather {
   display: flex;
   flex-direction: column;
-  font-family:"Inconsolata", monospace;
+  font-family: "Inconsolata", monospace;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -256,54 +256,53 @@ button {
 
 /* Contact us page */
 
-.aboutus{
+.aboutus {
   padding-top: 0;
   gap: 25px;
   justify-content: center;
   align-items: center;
 }
-.start-img img{
+.start-img img {
   width: 100%;
 }
 
-.aboutus-info{
+.aboutus-info {
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid #fff;
-  border-bottom-style:dashed;
+  border-bottom-style: dashed;
   padding-bottom: 25px;
 }
 
-
-.aboutus-info h2{
-  font-family:"Inconsolata", monospace;
+.aboutus-info h2 {
+  font-family: "Inconsolata", monospace;
 }
 
-.aboutus-info p{
+.aboutus-info p {
   width: 80%;
   font-family: "Inconsolata", monospace;
 }
 
-.contact-info{
+.contact-info {
   text-align: center;
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
-.contact-info h2{
-  font-family:"Delicious Handrawn", cursive;
+.contact-info h2 {
+  font-family: "Delicious Handrawn", cursive;
   font-size: 2rem;
 }
-.contact-info h4{
+.contact-info h4 {
   margin: 0;
-  font-family:"Inconsolata", monospace;
+  font-family: "Inconsolata", monospace;
   font-size: 1.2rem;
 }
 
-.location h3{
+.location h3 {
   font-family: "Acme", sans-serif;
   font-size: 1.5rem;
   margin-top: 25px;
@@ -312,10 +311,125 @@ button {
   border-bottom: 1px solid #fff;
 }
 
-.location h4{
+.location h4 {
   margin-bottom: 20px;
 }
 
-.location .map{
+.location .map {
   width: 70%;
+}
+
+/* Fresh */
+
+#fresh-page{
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+#fresh-page fieldset{
+  border-style: solid;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px;
+}
+
+#fresh-page legend{
+  font-family: "Lilita One", cursive;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label{
+  display: flex;
+  flex-direction: column;
+  font-family: "Acme", sans-serif;
+}
+
+#fresh-page input{
+  height: 25px;
+  padding: 5px;
+}
+
+label select{
+  height: 37px;
+  padding: 5px;
+}
+
+label textarea{
+  padding: 10px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#fresh-summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#fresh-summary img {
+  width: 70%;
+}
+#fresh-summary h3 {
+  font-family:"Inconsolata", monospace;
+  width: 75% ;
+}
+ .d-none {
+   display: none!important;
+ }
+
+
+
+ .success{
+  width: 70%;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid #fff;
+  border-style: dashed;
+ }
+
+ .success h2{
+  text-align: center;
+  font-family: "Inconsolata", monospace;
+  background-color: #136f63;
+  border-radius: 25px;
+ }
+
+ .success h4{
+  font-family: "Acme", sans-serif;
+ }
+
+ .success span{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 10px;
+ }
+
+
+ table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+
+
+
+td, th {
+  border: 1px solid #dddddd;
+  border-style: dotted;
+  text-align: left;
+  padding: 8px;
+}
+
+.table-title{
+  text-align: center;
 }

@@ -45,4 +45,15 @@
     .location .map{
         width: 100%;
       }
+
+    /* Fresh page */
+
+    #fresh-page{
+        align-items: center;
+    }
+
+    #fresh-page form{
+        width: 60%;
+        margin-bottom: 50px;
+    }
 }

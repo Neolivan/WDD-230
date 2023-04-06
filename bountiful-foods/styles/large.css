@@ -54,4 +54,20 @@
 .start-img img {
     height: 200px;
 }
+
+/* Fresh Page */
+ #fresh-page{
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+ }
+
+ #fresh-page form {
+    width: 40%;
+    }
+
+    .success{
+        width: 40%;
+    }
+
 }
